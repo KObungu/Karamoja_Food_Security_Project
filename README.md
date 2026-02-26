@@ -65,17 +65,17 @@ Finally, I built an interactive Tableau dashboard so stakeholders can explore th
 
 > Screenshots below are from my analysis and dashboard.
 
-### 🗺️ Sorghum Yield by District
-![Sorghum Yield Map](Images/sorghum_yield_map.png)
+### 📘 Sorghum Yield by District
+![Sorghum Yield Map](Images/Sorghum%20Yield%20Map.png)
 
 ### 🌽 Maize Yield by District
-![Maize Yield Map](Images/maize_yield_map.png)
+![Maize Yield Map](Images/Maize%20Yield%20Map.png)
 
-### 📈 Production Per Capita
-![Production Per Capita](Images/production_per_capita.png)
+### 📊 Production Per Capita
+![Production Per Capita](Images/Sorghum%20Production%20Per%20Capita.png)
 
-### 📊 Yield vs Population
-![Yield vs Population](Images/yield_vs_population.png)
+### 📈 Yield vs Population
+![Yield vs Population](Images/Karamoja_Dashboard.png)
 
 ---
 
