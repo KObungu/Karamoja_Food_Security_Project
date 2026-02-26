@@ -1,23 +1,25 @@
-# Karamoja Crop Yield & Food Security Analysis (2017)
+# 🌾 Karamoja Crop Yield & Food Security Analysis (2017)
 
 ## 📌 Project Overview
 
-This project develops an interactive data visualization tool to analyze crop yields and food security indicators in the Karamoja region of Uganda.
+This project analyzes crop yield and food security patterns in the Karamoja region of Uganda using district-level agricultural and population data.
 
-Using district-level data on maize and sorghum production alongside population data, the project identifies productivity disparities, population pressure, and food availability trends to support data-driven decision-making.
+The goal was to understand where food insecurity risks are highest by examining crop productivity, population pressure, and per capita production.
+
+This project combines data cleaning in Python, geographic mapping, and dashboard design in Tableau to support practical, data-driven decision-making.
 
 ---
 
 ## 🎯 Problem Statement
 
-Karamoja region faces recurring food insecurity challenges due to:
+Karamoja is one of Uganda’s most food-insecure regions. From the data and background research, some key contributing factors include:
 
 - Low agricultural productivity  
-- Climate variability (droughts)  
-- Uneven crop yield distribution  
-- High dependence on maize and sorghum  
+- Recurring drought conditions  
+- Uneven distribution of crop yields  
+- Heavy reliance on maize and sorghum  
 
-There is a need for structured, data-driven tools to prioritize interventions effectively.
+Because resources are limited, decision-makers need clear insights to know where to prioritize support.
 
 ---
 
@@ -26,7 +28,29 @@ There is a need for structured, data-driven tools to prioritize interventions ef
 - Analyze maize and sorghum yields by district  
 - Evaluate production per capita (food availability per person)  
 - Assess the relationship between population and productivity  
-- Develop an interactive dashboard for stakeholders  
+- Develop an interactive dashboard for stakeholders
+## 🧠 What I Did
+
+### 1️⃣ Data Cleaning
+I cleaned and merged crop yield data with population data using Pandas.  
+This involved checking for missing values and ensuring district names matched correctly.
+
+### 2️⃣ Creating New Metrics
+To better understand food availability, I calculated **production per capita**.  
+This helped show how much food is available per person in each district.
+
+### 3️⃣ Visualization & Analysis
+I created:
+
+- District-level yield maps  
+- Bar charts comparing maize and sorghum yields  
+- Production per capita comparisons  
+- A yield vs population analysis  
+
+These visuals helped reveal patterns that were not obvious from raw numbers alone.
+
+### 4️⃣ Dashboard Development
+Finally, I built an interactive Tableau dashboard so stakeholders can explore the data dynamically.
 
 ---
 
@@ -36,6 +60,22 @@ There is a need for structured, data-driven tools to prioritize interventions ef
 - **Jupyter Notebook**
 - **Tableau Public**
 - Geographic Shapefiles (District boundaries)
+
+  ## 📊 Key Visualizations
+
+> Screenshots below are from my analysis and dashboard.
+
+### 🗺️ Sorghum Yield by District
+![Sorghum Yield Map](Images/sorghum_yield_map.png)
+
+### 🌽 Maize Yield by District
+![Maize Yield Map](Images/maize_yield_map.png)
+
+### 📈 Production Per Capita
+![Production Per Capita](Images/production_per_capita.png)
+
+### 📊 Yield vs Population
+![Yield vs Population](Images/yield_vs_population.png)
 
 ---
 
@@ -52,20 +92,23 @@ There is a need for structured, data-driven tools to prioritize interventions ef
 
 ## 📈 Key Insights
 
-- Significant disparities in crop productivity across districts  
-- Production per capita varies significantly  
-- Higher population does not necessarily imply higher productivity  
-- Strong dependence on maize and sorghum increases vulnerability  
+From the analysis, I observed that:
+
+- Crop productivity differs significantly across districts.
+- Some districts with high population levels have relatively low food production per person.
+- Population size alone does not guarantee higher productivity.
+- Dependence on only two major crops increases vulnerability to climate shocks.  
 
 ---
 
 ## 📌 Recommendations
 
-- Target low-yield districts with improved agricultural support  
-- Prioritize high-population districts with lower per capita production  
-- Promote climate-resilient farming practices  
-- Encourage crop diversification  
-- Strengthen long-term sustainable agricultural planning  
+- Based on the findings:
+
+- Low-yield districts should be prioritized for agricultural support.
+- Districts with high population but low per capita production may need urgent intervention.
+- Climate-resilient farming techniques should be promoted.
+- Crop diversification could reduce long-term vulnerability. 
 
 ---
 
@@ -79,3 +122,20 @@ https://public.tableau.com/app/profile/kelvin.obungu/viz/Karamoja_Dashboard/Kara
 ---
 
 ## 📂 Repository Structure
+```
+Karamoja_Food_Security_Project/
+│
+├── Images/
+├── SHAPEFILES/
+├── TABLES/
+├── Kelvin_Obungu.ipynb
+├── cleaned_karamoja_data.csv
+├── README.md
+```
+
+---
+
+## 👤 Author
+
+Kelvin Obungu  
+Data Analytics & Visualization Enthusiast
